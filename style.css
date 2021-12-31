@@ -1,0 +1,73 @@
+
+.card{
+    background-color: #F40009;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left:auto ;
+    margin-right: auto;
+}
+.logo{
+width: 250PX;
+height: 200PX;
+margin-left: 55px;
+margin-top: 20px;
+position: absolute;
+}
+.img{
+width: 50px;
+margin-top: 28px;
+margin-left: 10px;
+height: 80%;
+}
+.wish{
+    display: inline;
+    position: absolute;
+    margin-left: 135px;
+    animation: up 2s 3;
+    color: yellow;
+    text-shadow: grey 5px 5px 3px;
+}
+.greeting{
+    display: inline;
+    position:absolute ;
+    margin-top: 190px;
+    margin-left:100px ;
+    animation: down 2s 3;
+    color: yellow;
+    text-shadow: grey 5px 5px 3px;
+}
+.btn{
+    margin-left:166px;
+    margin-top: 228px;
+    position: fixed;
+    border-radius: 10px;
+    background-color: rgba(46, 13, 233, 0.582);
+}
+.btn::after{
+    position: fixed;
+    background-color: rgba(46, 13, 233, 0.582);
+}
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.text{
+    text-decoration: none;
+    color: white;
+}
+.text::after{
+    color: white;
+    position: fixed;
+}
+
+@keyframes up{
+        from {top: 100px; color: black;}
+        to {top: 10px;
+            color:violet;}
+
+}
+@keyframes down{
+        from {top: -50px; color: black;}
+        to {top: 9px;
+            color: blue;}
+}
